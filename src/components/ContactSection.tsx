@@ -70,7 +70,7 @@ const ContactSection = () => {
 
               {
                 <form
-                  action="https://formsubmit.co/your@email.com"
+                  action="https://formsubmit.co/info@cnfhelmet.com"
                   method="POST"
                   className="space-y-6"
                 >
