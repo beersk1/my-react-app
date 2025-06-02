@@ -30,7 +30,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <a href="#" className="flex items-center space-x-2 ">
           <img
-            src="/Images/FinalLogo (1).png"
+            src="Images/FinalLogo (1).png"
             alt="FreshNClean Helmet Logo"
             className="h-12 w-auto"
           />

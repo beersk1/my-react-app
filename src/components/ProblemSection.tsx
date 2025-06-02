@@ -7,21 +7,21 @@ const problems = [
     title: "Water Damage",
     description:
       "Water cleaning weakens the helmet's foam, affecting its safety in case of impact.",
-    imageSrc: "/Images/rsz_1helmet_foam.jpg",
+    imageSrc: "Images/rsz_1helmet_foam.jpg",
   },
   {
     icon: <FlaskConical className="h-12 w-12 text-brand-red" />,
     title: "Harsh Chemicals",
     description:
       "Some cleaning chemicals cause skin irritation and damage helmet materials.",
-    imageSrc: "/Images/Harsh_Chemicals.jpg",
+    imageSrc: "Images/Harsh_Chemicals.jpg",
   },
   {
     icon: <ThumbsDown className="h-12 w-12 text-brand-red" />,
     title: "Poor Cleaning Practices",
     description:
       "Helmets are rarely cleaned properly, leading to bad odors, acne, and hygiene issues.",
-    imageSrc: "/Images/Poor_cleaning.jpg",
+    imageSrc: "Images/Poor_cleaning.jpg",
   },
 ];
 
