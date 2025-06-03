@@ -12,7 +12,7 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "postbuild": "echo 'cnfhelmet.com' > dist/CNAME"
+    "postbuild": "echo 'www.cnfhelmet.com' > dist/CNAME"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
