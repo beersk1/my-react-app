@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { cn } from "@/lib/utils";
-import { ArrowRight } from "lucide-react";
-
+import { ArrowRight, X, Truck } from "lucide-react";
 const HeroSection = () => {
   const heroRef = useRef<HTMLDivElement>(null);
 
@@ -85,6 +84,15 @@ const HeroSection = () => {
               >
                 Contact Us
                 <ArrowRight className="ml-2 h-4 w-4" />
+              </a>
+              <a
+                href="https://forms.gle/o4qgxNV9XJoAUwjm9"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center px-6 py-3 rounded-md font-medium transition-all duration-300 shadow-sm hover:shadow-md transform hover:-translate-y-1 bg-brand-red/10 hover:bg-brand-red/20 text-brand-red border border-brand-red/20"
+              >
+                <Truck className="mr-2 h-4 w-4" />
+                Schedule Pickup
               </a>
               <a
                 href="https://wa.me/+919920166621"

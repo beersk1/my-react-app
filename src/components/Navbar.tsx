@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
-import { Menu, X } from "lucide-react";
 
+import { Menu, X, Truck } from "lucide-react";
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -54,6 +54,12 @@ const Navbar = () => {
             Our Solution
           </a>
           <a
+            href="#pickup-delivery"
+            className="text-brand-black/80 hover:text-brand-red transition-colors"
+          >
+            Pickup & Delivery
+          </a>
+          <a
             href="#about"
             className="text-brand-black/80 hover:text-brand-red transition-colors"
           >
@@ -64,6 +70,15 @@ const Navbar = () => {
             className="text-brand-black/80 hover:text-brand-red transition-colors"
           >
             FAQ
+          </a>
+          <a
+            href="https://forms.gle/o4qgxNV9XJoAUwjm9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center px-4 py-2 rounded-md font-medium transition-all duration-300 shadow-sm hover:shadow-md transform hover:-translate-y-1 bg-brand-red/10 hover:bg-brand-red/20 text-brand-red border border-brand-red/20 mr-2"
+          >
+            <Truck className="mr-1 h-4 w-4" />
+            Schedule Pickup
           </a>
           <a href="#contact" className="btn-primary inline-flex items-center">
             Get Started
@@ -98,6 +113,12 @@ const Navbar = () => {
               Our Solution
             </a>
             <a
+              href="#pickup-delivery"
+              className="text-brand-black/80 hover:text-brand-red transition-colors"
+            >
+              Pickup & Delivery
+            </a>
+            <a
               href="#about"
               className="text-brand-black/80 hover:text-brand-red transition-colors py-2"
               onClick={() => setIsMobileMenuOpen(false)}
@@ -110,6 +131,14 @@ const Navbar = () => {
               onClick={() => setIsMobileMenuOpen(false)}
             >
               FAQ
+            </a>
+            <a
+              href="https://forms.gle/o4qgxNV9XJoAUwjm9"
+              target="_blank"
+              className="inline-flex items-center justify-center px-4 py-2 rounded-md font-medium transition-all duration-300 shadow-sm hover:shadow-md transform hover:-translate-y-1 bg-brand-red/10 hover:bg-brand-red/20 text-brand-red border border-brand-red/20 mr-2"
+            >
+              <Truck className="mr-1 h-4 w-4" />
+              Schedule Pickup
             </a>
             <a
               href="#contact"
