@@ -81,7 +81,7 @@ const SolutionSection = () => {
                 <ArrowRight className="ml-2 h-4 w-4" />
               </a>
               <a
-                href="https://wa.me/+919920166621"
+                href="https://wa.me/+918657177579"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-6 py-3 rounded-md font-medium transition-all duration-300 shadow-sm hover:shadow-md transform hover:-translate-y-1 bg-[#25D366] hover:bg-[#128C7E] text-white"
