@@ -30,7 +30,7 @@ const facts = [
 
 const FactsSection = () => {
   return (
-    <section id="facts" className="section bg-gray-50 clip-diagonal py-16 mb-4">
+    <section id="facts" className="section bg-gray-50  py-16 mb-4">
       <div className="container mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-8">
           <div className="inline-flex items-center rounded-full px-3 py-1 text-sm bg-brand-lightRed text-brand-red font-medium mb-2">
