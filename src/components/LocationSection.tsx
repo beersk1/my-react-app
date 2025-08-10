@@ -35,15 +35,15 @@ const LocationSection = () => {
                 <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mb-4 mx-auto">
                   <MapPin className="h-8 w-8 text-white" />
                 </div>
-                <h4 className="text-xl font-bold text-white mb-3">
-                  Location 1
-                </h4>
+                <h4 className="text-xl font-bold text-white mb-3">Colaba</h4>
                 <p className="text-white/80 mb-4">
-                  Coming Soon...
+                  Opposite Kamal Mansion,
                   <br />
-                  {/* [Your Address Line 2] */}
+                  Bhaskarrao Kargutkar Rd,
                   <br />
-                  {/* [City, Pincode] */}
+                  Apollo Bandar,
+                  <br />
+                  Colaba, Mumbai - 400005
                 </p>
                 <div className="space-y-2 text-white/70 mb-4">
                   <p className="flex items-center justify-center gap-2">
