@@ -16,7 +16,7 @@ const SolutionSection = () => {
       <div className="container mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-10">
           <div className="inline-flex items-center rounded-full px-3 py-1 text-sm bg-white/20 text-white font-medium mb-2">
-            Our Solution
+            The Solution
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-3">
             Introducing India's First Advanced Helmet Cleaning Service
@@ -28,13 +28,26 @@ const SolutionSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start mb-10">
           <div>
-            <div className="relative overflow-hidden rounded-xl bg-white/10 border border-white/20 shadow-lg aspect-[2/3]">
+            <div className="relative overflow-hidden rounded-xl bg-white/10 border border-white/20 shadow-lg aspect-[2/3] w-full max-w-sm mx-auto">
               <img
                 src="Images/Helmet Cleaning Machine.png"
                 alt="Helmet cleaning machine - vertical image"
                 className="h-full w-full object-cover"
                 loading="lazy"
               />
+            </div>
+
+            {/* YouTube Video Embed */}
+            <div className="mt-6 relative overflow-hidden rounded-xl bg-white/10 border border-white/20 shadow-lg aspect-video">
+              <iframe
+                src="https://www.youtube.com/embed/RsDP4suvbVQ"
+                title="Helmet Cleaning Machine in Action"
+                className="w-full h-full"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                loading="lazy"
+              ></iframe>
             </div>
           </div>
           <div>
@@ -127,8 +140,9 @@ const SolutionSection = () => {
             </div>
 
             <div className="mt-8 bg-white/10 backdrop-blur-sm rounded-xl p-6 shadow-lg border border-white/20">
-              <div className="flex flex-col md:flex-row items-center justify-between">
-                <div className="mb-4 md:mb-0 md:mr-6">
+              <div className="flex flex-col items-center md:items-start">
+                {/* Text Section */}
+                <div className="mb-4 md:mb-6 text-center md:text-left">
                   <h3 className="text-2xl font-bold mb-2">
                     Ready to Experience the Difference?
                   </h3>
@@ -137,7 +151,9 @@ const SolutionSection = () => {
                     knowing your helmet is truly clean.
                   </p>
                 </div>
-                <div className="flex flex-col sm:flex-row gap-4 pt-4 animate-fadeIn animate-delay-300">
+
+                {/* Buttons Row */}
+                <div className="flex flex-row gap-4 animate-fadeIn animate-delay-300">
                   <a
                     href="#contact"
                     className="btn-primary inline-flex items-center justify-center"
@@ -146,7 +162,7 @@ const SolutionSection = () => {
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </a>
                   <a
-                    href="https://wa.me/+919920166621"
+                    href="https://wa.me/+918657177579"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center px-6 py-3 rounded-md font-medium transition-all duration-300 shadow-sm hover:shadow-md transform hover:-translate-y-1 bg-[#25D366] hover:bg-[#128C7E] text-white"
