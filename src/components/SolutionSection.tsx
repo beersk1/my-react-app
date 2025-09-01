@@ -38,7 +38,7 @@ const SolutionSection = () => {
             </div>
 
             {/* YouTube Video Embed */}
-            <div className="mt-6 relative overflow-hidden rounded-xl bg-white/10 border border-white/20 shadow-lg aspect-video">
+            {/* <div className="mt-6 relative overflow-hidden rounded-xl bg-white/10 border border-white/20 shadow-lg aspect-video">
               <iframe
                 src="https://www.youtube.com/embed/RsDP4suvbVQ"
                 title="Helmet Cleaning Machine in Action"
@@ -48,7 +48,7 @@ const SolutionSection = () => {
                 allowFullScreen
                 loading="lazy"
               ></iframe>
-            </div>
+            </div> */}
           </div>
           <div>
             <h3 className="text-2xl font-bold mb-4">How Our Process Works</h3>
