@@ -9,7 +9,7 @@ const app = (
   </BrowserRouter>
 );
 
-// Use hydration for SSR in production
+// Use hydration for SSR in productions
 if (import.meta.env.PROD) {
   hydrateRoot(root, app);
 } else {
