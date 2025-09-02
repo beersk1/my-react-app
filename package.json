@@ -1,13 +1,11 @@
 {
   "name": "vite_react_shadcn_ts",
-  "homepage": "https://beersk1.github.io/my-react-app/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
   "scripts": {
     "dev": "vite",
+    "deploy": "gh-pages -d dist",
     "build": "npm run build:client && npm run build:server && npm run build:prerender",
     "build:client": "vite build",
     "build:server": "vite build --ssr src/entry-server.tsx --outDir dist/server",
