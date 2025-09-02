@@ -13,4 +13,5 @@ const app = (
 if (import.meta.env.PROD) {
   hydrateRoot(root, app);
 } else {
+  createRoot(root).render(app);
 }
