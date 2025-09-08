@@ -30,8 +30,8 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <a href="#" className="flex items-center space-x-2 ">
           <img
-            src="Images/FinalLogo (1).png"
-            alt="FreshNClean Helmet Logo"
+            src="Images/clean-n-fresh-helmet-logo.svg"
+            alt="Clean N Fresh Helmet | India's First Advanced Helmet Cleaning Service"
             className="h-12 w-auto"
           />
           <span className="font-display font-bold text-xl text-brand-black">

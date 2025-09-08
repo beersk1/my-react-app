@@ -7,21 +7,24 @@ const problems = [
     title: "Water Damage",
     description:
       "Water cleaning weakens the helmet's foam, affecting its safety in case of impact.",
-    imageSrc: "Images/rsz_1helmet_foam.jpg",
+    imageSrc: "Images/damage-from-improper-helmet-cleaning.webp",
+    alt: "A helmet showing water damage and degradation to the interior foam and padding",
   },
   {
     icon: <FlaskConical className="h-12 w-12 text-brand-red" />,
     title: "Harsh Chemicals",
     description:
       "Some cleaning chemicals cause skin irritation and damage helmet materials.",
-    imageSrc: "Images/Harsh_Chemicals.jpg",
+    imageSrc: "Images/harsh-cleaning-chemicals.webp",
+    alt: "Harsh chemicals and cleaning supplies used in traditional helmet cleaning methods",
   },
   {
     icon: <ThumbsDown className="h-12 w-12 text-brand-red" />,
     title: "Poor Cleaning Practices",
     description:
       "Helmets are rarely cleaned properly, leading to bad odors, acne, and hygiene issues.",
-    imageSrc: "Images/Poor_cleaning.jpg",
+    imageSrc: "Images/hand-washing-motorcycle-helmet.webp",
+    alt: "A person manually cleaning the inside of a motorcycle helmet with soap and a cloth",
   },
 ];
 
@@ -50,7 +53,7 @@ const ProblemSection = () => {
               <div className="h-44 overflow-hidden">
                 <img
                   src={problem.imageSrc}
-                  alt={problem.title}
+                  alt={problem.alt}
                   className="w-full h-full object-cover"
                   loading="lazy"
                 />

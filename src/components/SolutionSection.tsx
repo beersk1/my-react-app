@@ -30,8 +30,8 @@ const SolutionSection = () => {
           <div>
             <div className="relative overflow-hidden rounded-xl bg-white/10 border border-white/20 shadow-lg aspect-[2/3] w-full max-w-sm mx-auto">
               <img
-                src="Images/Helmet Cleaning Machine.png"
-                alt="Helmet cleaning machine - vertical image"
+                src="Images/helmet-cleaning-machine.webp"
+                alt="The Clean N Fresh Helmet machine, India's first patented helmet cleaning machine that uses fog dry clean, sterilization, and hot air dry technology"
                 className="h-full w-full object-cover"
                 loading="lazy"
               />

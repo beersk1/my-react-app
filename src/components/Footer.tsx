@@ -11,8 +11,8 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <img
-                src="Images/FinalLogo (1).png"
-                alt="HelmetShine Logo"
+                src="Images/clean-n-fresh-helmet-logo.svg"
+                alt="Clean N Fresh Helmet | India's First Advanced Helmet Cleaning Service"
                 className="h-10 w-auto"
               />
               <span className="font-display font-bold text-xl text-brand-black">
@@ -80,14 +80,14 @@ const Footer = () => {
                   How It Works
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="#testimonials"
                   className="text-brand-gray hover:text-brand-red transition-colors"
                 >
                   Testimonials
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a
                   href="#contact"

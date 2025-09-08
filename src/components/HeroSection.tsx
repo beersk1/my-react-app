@@ -113,8 +113,8 @@ const HeroSection = () => {
               <div className="absolute inset-0 bg-gradient-radial from-brand-lightRed/30 to-transparent rounded-full blur-2xl"></div>
               <div className="glass-card p-4 rounded-2xl overflow-hidden shadow-xl animate-float">
                 <img
-                  src="Images/Clean_Helmet.jpg"
-                  alt="Clean motorcycle helmet"
+                  src="Images/clean-black-motorcycle-helmet.webp"
+                  alt="A freshly cleaned black helmet after a helmet cleaning service"
                   className="w-full h-auto object-cover rounded-xl transform transition-transform duration-700 hover:scale-[1.02]"
                   style={{ aspectRatio: "3/3" }}
                   loading="lazy"
