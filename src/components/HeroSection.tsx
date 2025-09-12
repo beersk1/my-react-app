@@ -71,10 +71,11 @@ const HeroSection = () => {
             </h1>
 
             <p className="text-lg md:text-xl text-brand-gray max-w-xl animate-fadeIn animate-delay-200">
-              Your helmet is dirtier than you think—packed with sweat, bacteria,
-              and odors. Our advanced cleaning service uses cutting-edge
-              technology to sterilize, deodorize, and restore freshness, along
-              with exterior cleaning & polishing for a spotless finish.
+              Is your helmet dirty, smelly, or full of bacteria? Our
+              professional helmet cleaning service uses India's first advanced,
+              patented technology to deep-clean, sterilize, and deodorize.
+              Experience a truly fresh ride with a helmet that looks and feels
+              new.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 animate-fadeIn animate-delay-300">
