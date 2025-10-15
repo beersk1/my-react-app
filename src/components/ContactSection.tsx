@@ -66,7 +66,7 @@ const ContactSection = () => {
 
               {
                 <form
-                  action="https://formsubmit.co/info@cnfhelmet.com"
+                  action="https://formsubmit.co/e266f667d0d7174a2cd587fbe9a4163e"
                   method="POST"
                   className="space-y-6"
                 >
