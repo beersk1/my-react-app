@@ -14,8 +14,7 @@ const faqItems = [
   },
   {
     question: "How long does the cleaning process take?",
-    answer:
-      "Typically, our standard cleaning service takes 24-48 hours to complete. We also offer express services for those who need their helmets back sooner. The exact timeline will be provided when you schedule your service.",
+    answer: "The complete helmet cleaning service takes just 8 minutes.",
   },
   {
     question: "Is your cleaning process safe for all helmet materials?",
