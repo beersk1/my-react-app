@@ -10,6 +10,7 @@ import LocationSection from "@/components/LocationSection";
 import MissionVisionSection from "@/components/MissionVisionSection";
 import FAQSection from "@/components/FAQSection";
 import ContactSection from "@/components/ContactSection";
+import SustainabilitySection from "@/components/SustainabilitySection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -50,6 +51,7 @@ const Index = () => {
       <FactsSection />
       <ProblemSection />
       <SolutionSection />
+      {/* <SustainabilitySection /> */}
       <FeatureSection />
       <LocationSection />
 

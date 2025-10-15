@@ -29,7 +29,7 @@ const faqItems = [
   {
     question: "How often should I have my helmet professionally cleaned?",
     answer:
-      "For regular users, we recommend professional cleaning every 3-6 months. For heavy users, such as daily commuters or professional athletes, more frequent cleaning (every 1-3 months) may be beneficial to maintain optimal hygiene and comfort.",
+      "For daily users, we recommend professional cleaning once a week. For all other users, we recommend professional cleaning twice a month to maintain optimal hygiene and comfort.",
   },
   {
     question: "Can you remove stubborn odors from my helmet?",
